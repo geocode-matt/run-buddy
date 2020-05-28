@@ -404,6 +404,20 @@ contact-form input, .contact-form textarea {
     }
 }
 
+.service-grid-container {
+    display: grid;
+  }
+
+  .service-grid-item {
+    width: 200px;
+    height: 50px;
+    background-color: orange;
+    border: solid;
+    color: black;
+  }
+
+
+/* Media Queries */
 @media screen and (max-width: 768px) {
     section {
         padding: 30px 15px;
@@ -462,3 +476,4 @@ contact-form input, .contact-form textarea {
         order: 3;
     }
 }
+
